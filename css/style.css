@@ -21,7 +21,7 @@ body {
     overflow: hidden;
 }
 
-#bgvid {
+video#bgvid {
     position: static;
     top: 50%;
     left: 50%;
@@ -30,11 +30,10 @@ body {
     width: auto;
     height: auto;
     z-index: -100;
-    /* force the video tag to start at top/left 0 */
-    /* transform: translateX(-50%) translateY(-50%); */
     background-size: cover;
-    transition: 1s opacity;
+    overflow-x: hidden;
 }
+
 #title-succes{
     position: absolute;
     bottom: 27vh;
@@ -53,5 +52,40 @@ body {
 }
 .video:hover{
     transform: scale(1.5);
-    
+}
+
+#description {
+    position: absolute;
+    /* décollé de 50% du top */
+    top: 50vh;
+    font-weight: 100;
+    color: white;
+    padding: 2rem;
+    /* width: 33%; */
+    margin: 2rem;
+    float: right;
+    vertical-align: middle;
+    /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+}
+
+.btn.btn-secondary{
+    background-color: rgba(108, 117, 125, 0.6)!important;
+}
+
+.badge.badge-danger{
+    border-radius: 50%;
+    position: relative;
+    right: 15px;
+    bottom: 20px;
+}
+
+.dropdown-menu.dropdown-menu-right.bg-dark a{
+    color: white;
+}
+
+.dropdown-menu.dropdown-menu-right.bg-dark a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
 }
