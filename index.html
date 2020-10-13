@@ -33,13 +33,15 @@
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top transparent">
-        <a class="navbar-brand" href="#"><img src="https://cdn.freebiesupply.com/logos/large/2x/netflix-2-logo-png-transparent.png" width="80" height="30" alt="" loading="lazy"></a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top transparent">
+        <a class="navbar-brand" href="#"><img
+                src="https://cdn.freebiesupply.com/logos/large/2x/netflix-2-logo-png-transparent.png" width="80"
+                height="30" alt="" loading="lazy"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,16 +49,16 @@
         <!-- Navbar left-->
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">  
+                <li class="nav-item active">
                     <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Films</a>
                 </li>
-                <li class="nav-item"> 
+                <li class="nav-item">
                     <a class="nav-link" href="#">Séries</a>
                 </li>
-                    <a class="nav-link" href="#">Nouveautés</a>
+                <a class="nav-link" href="#">Nouveautés</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Ma liste</a>
@@ -73,18 +75,19 @@
                     <a class="nav-link" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>    
+                    <a class="nav-link" href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-user" aria-hidden="true"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
                     </div>
-                  </li>
+                </li>
             </ul>
         </div>
 
@@ -94,18 +97,25 @@
         <source src="videos/surf.mp4" type="video/mp4">
     </video>
 
-    
+    <div id="description">
+        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
 
-    <!-- <video controls style="height: 100vh; width: 100%; background-size: cover; margin: 0; padding: 0;">
-        <source src="videos/surf.mp4" type="video/mp4">
-        <source src="maVideo.webm" type="video/webm">
-        <p>Votre navigateur ne prend pas en charge les vidéos HTML5.
-            Voici <a href="surf.mp4">un lien pour télécharger la vidéo</a>.</p>
-    </video> -->
+        </br>
 
-    <!-- <video autoplay loop id="bg-video">
-        <source src="videos/surf.mp4" type="video/mp4">
-    </video> -->
+        <p class="h4">Aenean pharetra convallis pellentesque. Vestibulum et metus lectus. Nunc consectetur, ipsum in viverra
+            eleifend,
+            erat erat ultricies felis, at ultricies mi massa eu ligula. Suspendisse in justo dapibus metus sollicitudin
+            ultrices id sed nisl.</p>
+
+        <br/>
+
+        <button type="button" class="btn btn-light btn-lg mr-2">
+            <i class="fa fa-play" aria-hidden="true"></i> Lecture
+        </button>
+        <button type="button" class="btn btn-secondary btn-lg">
+            <i class="fa fa-info-circle" aria-hidden="true"></i> Plus d'infos
+        </button>
+    </div>
 
     <!-- <main role="main" class="container">
         <div class="jumbotron">
@@ -125,15 +135,16 @@
     </script>
     <script src="/docs/4.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
 </body>
+
 </html>

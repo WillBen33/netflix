@@ -21,7 +21,7 @@ body {
     overflow: hidden;
 }
 
-video {
+video#bgvid {
     position: static;
     top: 50%;
     left: 50%;
@@ -30,8 +30,22 @@ video {
     width: auto;
     height: auto;
     z-index: -100;
-    /* force the video tag to start at top/left 0 */
-    /* transform: translateX(-50%) translateY(-50%); */
     background-size: cover;
-    transition: 1s opacity;
+    overflow-x: hidden;
+}
+
+#description {
+    position: absolute;
+    top: 35%;
+    font-weight: 100;
+    color: white;
+    padding: 2rem;
+    width: 33%;
+    margin: 2rem;
+    float: right;
+    font-size: 1.2rem;
+}
+
+.btn.btn-secondary{
+    background-color: rgba(108, 117, 125, 0.6)!important;
 }
