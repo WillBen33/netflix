@@ -21,7 +21,7 @@ body {
     overflow: hidden;
 }
 
-video {
+#bgvid {
     position: static;
     top: 50%;
     left: 50%;
@@ -34,4 +34,24 @@ video {
     /* transform: translateX(-50%) translateY(-50%); */
     background-size: cover;
     transition: 1s opacity;
+}
+#title-succes{
+    position: absolute;
+    bottom: 27vh;
+    left: 1vh;
+    color: white;
+}
+#mini-video{
+    display: flex;
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+}
+.video{
+    width: 300px;
+    height: 150px;
+}
+.video:hover{
+    transform: scale(1.5);
+    
 }
