@@ -34,6 +34,26 @@ video#bgvid {
     overflow-x: hidden;
 }
 
+#title-succes{
+    position: absolute;
+    bottom: 27vh;
+    left: 1vh;
+    color: white;
+}
+#mini-video{
+    display: flex;
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+}
+.video{
+    width: 300px;
+    height: 150px;
+}
+.video:hover{
+    transform: scale(1.5);
+}
+
 #description {
     position: absolute;
     /* décollé de 50% du top */
